@@ -1,0 +1,15 @@
+PARTS:
+S1 3V external power supply
+R1 330R
+Q1 2N2222
+M1 3V motor
+P1 B10K potmeter
+
+CONNECTIONS:
+Port6 connected to R1
+R1 connected to Q1 base
+Q1 emitter connected to GND
+Q1 collector connected to M1 negative
+M1 positive connected to S1 positive
+S1 nevative connected to GND
+P1 connected to GND, 5V (arduino) and PortA0
