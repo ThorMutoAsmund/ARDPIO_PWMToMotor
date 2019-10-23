@@ -13,3 +13,5 @@ Q1 collector connected to M1 negative
 M1 positive connected to S1 positive
 S1 nevative connected to GND
 P1 connected to GND, 5V (arduino) and PortA0
+
+TEST
